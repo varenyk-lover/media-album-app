@@ -39,28 +39,89 @@
     {
       "name": "Orville Kuhic",
       "id": 23
+    }
+  ],
+  "albums": [
+    {
+      "id": 10,
+      "title": "Hiking Trip",
+      "userId": 14
     },
     {
-      "name": "Earnest Gleason",
+      "userId": 14,
+      "title": "Bespoke Bronze Car",
+      "id": 11
+    },
+    {
+      "userId": 14,
+      "title": "Refined Frozen Chicken",
+      "id": 12
+    },
+    {
+      "userId": 14,
+      "title": "Electronic Frozen Mouse",
+      "id": 13
+    },
+    {
+      "userId": 14,
+      "title": "Rustic Fresh Computer",
+      "id": 14
+    },
+    {
+      "userId": 14,
+      "title": "Tasty Bronze Cheese",
+      "id": 15
+    },
+    {
+      "userId": 14,
+      "title": "Elegant Plastic Bike",
+      "id": 16
+    },
+    {
+      "userId": 14,
+      "title": "Awesome Cotton Sausages",
+      "id": 17
+    },
+    {
+      "userId": 14,
+      "title": "Intelligent Metal Towels",
+      "id": 18
+    },
+    {
+      "userId": 15,
+      "title": "Luxurious Wooden Sausages",
+      "id": 19
+    },
+    {
+      "userId": 15,
+      "title": "Unbranded Cotton Shoes",
+      "id": 20
+    },
+    {
+      "userId": 15,
+      "title": "Licensed Cotton Towels",
+      "id": 21
+    },
+    {
+      "userId": 15,
+      "title": "Rustic Plastic Soap",
+      "id": 22
+    },
+    {
+      "userId": 16,
+      "title": "Electronic Metal Towels",
+      "id": 23
+    },
+    {
+      "userId": 19,
+      "title": "Gorgeous Fresh Mouse",
       "id": 24
     },
     {
-      "name": "Luke Schimmel",
+      "userId": 20,
+      "title": "Ergonomic Concrete Soap",
       "id": 25
-    },
-    {
-      "name": "Cecilia Yundt",
-      "id": 26
-    },
-    {
-      "name": "Phil Kilback-Thompson",
-      "id": 27
-    },
-    {
-      "name": "Roderick Crist",
-      "id": 28
     }
   ],
-  "albums": [],
   "photos": []
 }
