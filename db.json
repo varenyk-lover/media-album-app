@@ -39,53 +39,17 @@
     {
       "name": "Orville Kuhic",
       "id": 23
+    },
+    {
+      "name": "Dr. Kay Ernser",
+      "id": 24
     }
   ],
   "albums": [
     {
-      "id": 10,
-      "title": "Hiking Trip",
-      "userId": 14
-    },
-    {
-      "userId": 14,
-      "title": "Bespoke Bronze Car",
-      "id": 11
-    },
-    {
-      "userId": 14,
-      "title": "Refined Frozen Chicken",
-      "id": 12
-    },
-    {
-      "userId": 14,
-      "title": "Electronic Frozen Mouse",
-      "id": 13
-    },
-    {
-      "userId": 14,
-      "title": "Rustic Fresh Computer",
-      "id": 14
-    },
-    {
-      "userId": 14,
-      "title": "Tasty Bronze Cheese",
-      "id": 15
-    },
-    {
-      "userId": 14,
-      "title": "Elegant Plastic Bike",
-      "id": 16
-    },
-    {
       "userId": 14,
       "title": "Awesome Cotton Sausages",
       "id": 17
-    },
-    {
-      "userId": 14,
-      "title": "Intelligent Metal Towels",
-      "id": 18
     },
     {
       "userId": 15,
@@ -121,6 +85,11 @@
       "userId": 20,
       "title": "Ergonomic Concrete Soap",
       "id": 25
+    },
+    {
+      "userId": 14,
+      "title": "Licensed Plastic Salad",
+      "id": 26
     }
   ],
   "photos": []
