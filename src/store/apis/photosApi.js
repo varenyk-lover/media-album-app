@@ -7,9 +7,16 @@ const photosApi = createApi({
     baseQuery: fetchBaseQuery({
         baseUrl: "http://localhost:30005",
     }),
-    endpoints(builder) {
+    endpoints: function (builder) {
         return {
             fetchPhotos: builder.query({
+                providesTags: (result, error, album) => {
+                    const tags = result.map((photo) => {
+                        return {type: "Photo", id: photo.id};
+                    });
+                    tags.push({type: "AlbumPhoto", id: album.id});
+                    return tags;
+                },
                 query: (album) => {
                     return {
                         url: "/photos",
@@ -21,18 +28,24 @@ const photosApi = createApi({
                 },
             }),
             addPhoto: builder.mutation({
+                invalidatesTags: (result, error, album) => {
+                    return [{type: "AlbumPhoto", id: album.id}];
+                },
                 query: (album) => {
                     return {
                         method: "POST",
                         url: "/photos",
                         body: {
                             albumId: album.id,
-                            url: faker.image.urlLoremFlickr({ width: 120, height: 120, category: 'absctract' })
+                            url: faker.image.urlLoremFlickr({width: 120, height: 120, category: 'abstract'})
                         }
                     };
                 }
             }),
             removePhoto: builder.mutation({
+                invalidatesTags: (result, error, photo) => {
+                    return [{type: "Photo", id: photo.id}];
+                },
                 query: (photo) => {
                     return {
                         method: "DELETE",
